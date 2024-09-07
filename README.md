@@ -5,7 +5,7 @@
 This is the source code for AudioShield.
 
 ## Demo
-The audio demos are availabel [here](https://sites.google.com/view/lstuap).
+The audio demos are available [here](https://sites.google.com/view/lstuap).
 
 ## Setup
 
