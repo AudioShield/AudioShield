@@ -4,6 +4,9 @@
 
 This is the source code for AudioShield.
 
+## Demo
+The audio demos are availabel [here](https://sites.google.com/view/lstuap).
+
 ## Setup
 
 To run the code, ensure the following dependencies are installed:
@@ -47,60 +50,6 @@ python train.py \
 	--tgt_text <target_text> \
 	--output_dir <output_directory>
 ```
-
-## Demo Audio Clips
-<p>Original Text: "I've not said anything to them, they know."</p>
-
-<table>
-  <tr>
-    <th>Neekhara <em>et al.</em></th>
-    <th>Zong <em>et al.</em></th>
-    <th>AdvDDoS</th>
-    <th>AudioShield</th>
-  </tr>
-  <tr>
-    <td><audio controls><source src="./demo/audio/neek_0.wav" type="audio/wav"></audio></td>
-    <td><audio controls><source src="./demo/audio/zong_0.wav" type="audio/wav"></audio></td>
-    <td><audio controls><source src="./demo/audio/adv_0.wav" type="audio/wav"></audio></td>
-    <td><audio controls><source src="./demo/audio/audioshield_0.wav" type="audio/wav"></audio></td>
-  </tr>
-  <tr>
-    <td>I've not said anything to them they know</td>
-    <td>Has not said anything to them they know</td>
-    <td>I've not said anything to them they know</td>
-    <td>No I don't know who had anything to do with</td>
-  </tr>
-</table>
-
-<p>&nbsp;</p>
-
-<p>Original Text: "One season, they might do well."</p>
-
-<table>
-  <tr>
-    <th>Neekhara <em>et al.</em></th>
-    <th>Zong <em>et al.</em></th>
-    <th>AdvDDoS</th>
-    <th>AudioShield</th>
-  </tr>
-  <tr>
-    <td><audio controls><source src="./demo/audio/neek_1.wav" type="audio/wav"></audio></td>
-    <td><audio controls><source src="./demo/audio/zong_1.wav" type="audio/wav"></audio></td>
-    <td><audio controls><source src="./demo/audio/adv_1.wav" type="audio/wav"></audio></td>
-    <td><audio controls><source src="./demo/audio/audioshield_1.wav" type="audio/wav"></audio></td>
-  </tr>
-  <tr>
-    <td>1 season they might do well</td>
-    <td>They might be well</td>
-    <td>1 piece and you might be well</td>
-    <td>Most of the time</td>
-  </tr>
-</table>
-
-
-## Visualization of Audio Examples
-
-![Image](./demo/image/Example1.png) 
 
 ## Acknowledgement
 
