@@ -49,20 +49,54 @@ python train.py \
 ```
 
 ## Demo Audio Clips
+<p>Original Text: "I've not said anything to them, they know."</p>
 
-Original Text: "I've not said anything to them, they know."
+<table>
+  <tr>
+    <th>Neekhara <em>et al.</em></th>
+    <th>Zong <em>et al.</em></th>
+    <th>AdvDDoS</th>
+    <th>AudioShield</th>
+  </tr>
+  <tr>
+    <td><audio controls><source src="./demo/audio/neek_0.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./demo/audio/zong_0.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./demo/audio/adv_0.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./demo/audio/audioshield_0.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+    <td>I've not said anything to them they know</td>
+    <td>Has not said anything to them they know</td>
+    <td>I've not said anything to them they know</td>
+    <td>No I don't know who had anything to do with</td>
+  </tr>
+</table>
 
-|                      Neekhara *et al.*                       |                        Zong *et al.*                         |                           AdvDDoS                            |                         AudioShield                          |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <audio controls><source src="./demo/audio/neek_0.wav" type="audio/wav"></audio> | <audio controls><source src="./demo/audio/zong_0.wav" type="audio/wav"></audio> | <audio controls><source src="./demo/audio/adv_0.wav" type="audio/wav"></audio> | <audio controls><source src="./demo/audio/audioshield_0.wav" type="audio/wav"></audio> |
-|           I've not said anything to them they know           |           Has not said anything to them they know            |           I've not said anything to them they know           |         No I don't know who had anything to do with          |
+<p>&nbsp;</p>
 
-Original Text: "One season, they might do well."
+<p>Original Text: "One season, they might do well."</p>
 
-|                      Neekhara *et al.*                       |                        Zong *et al.*                         |                           AdvDDoS                            |                         AudioShield                          |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <audio controls><source src="./demo/audio/neek_1.wav" type="audio/wav"></audio> | <audio controls><source src="./demo/audio/zong_1.wav" type="audio/wav"></audio> | <audio controls><source src="./demo/audio/adv_1.wav" type="audio/wav"></audio> | <audio controls><source src="./demo/audio/audioshield_1.wav" type="audio/wav"></audio> |
-|                 1 season they might do well                  |                      They might be well                      |                1 piece and you might be well                 |                       Most of the time                       |
+<table>
+  <tr>
+    <th>Neekhara <em>et al.</em></th>
+    <th>Zong <em>et al.</em></th>
+    <th>AdvDDoS</th>
+    <th>AudioShield</th>
+  </tr>
+  <tr>
+    <td><audio controls><source src="./demo/audio/neek_1.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./demo/audio/zong_1.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./demo/audio/adv_1.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./demo/audio/audioshield_1.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+    <td>1 season they might do well</td>
+    <td>They might be well</td>
+    <td>1 piece and you might be well</td>
+    <td>Most of the time</td>
+  </tr>
+</table>
+
 
 ## Visualization of Audio Examples
 
